@@ -20,6 +20,7 @@
     transform: rotate(180deg);
 
     .btn-line {
+
       //Line 1 - Rotate
       &:nth-child(1) {
         background: red;
@@ -48,6 +49,7 @@
   width: 100%;
   opacity: 0.9;
   visibility: hidden;
+
   &.show {
     visibility: visible;
   }
@@ -77,6 +79,7 @@
       transform: translate3d(0, 0, 0);
     }
   }
+
   &-branding {
     background: $primary-color;
     transform: translate3d(0, 100%, 0);
@@ -90,7 +93,7 @@
     .portrait {
       width: 250px;
       height: 250px;
-      background: url(../img/portrait.jpg);
+      background: url(../img/portrait.png);
       border-radius: 50%;
       background-size: cover;
       border: solid 3px $secondary-color;
@@ -107,7 +110,7 @@
       transform: translate3d(0, 0, 0);
     }
 
-    &.current > a {
+    &.current>a {
       color: $secondary-color;
     }
   }

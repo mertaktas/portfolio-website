@@ -237,8 +237,8 @@ main {
 #main-footer {
   background: #2b2b2b;
   color: set-text-color(#444);
-  padding: 1rem;
-  height: 60px;
+  padding: 2rem;
+  height: 100px;
   left: 0;
   bottom: 0;
   width: 100%;

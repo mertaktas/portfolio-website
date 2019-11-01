@@ -173,6 +173,7 @@ main {
   padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem;
+  transition: all 1s;
 
   &:hover {
     background: $secondary-color;
@@ -190,6 +191,19 @@ main {
   @extend .btn;
   background: lighten($primary-color, 50);
   color: #333;
+}
+
+.btn-tec {
+  display: block;
+  padding: 0.5rem 1rem;
+  border: 0;
+  background: lighten($primary-color, 80);
+  color: rgb(24, 23, 23);
+  text-align: center;
+}
+
+.btn-header {
+  margin-bottom: 0.3rem;
 }
 
 #main-footer {

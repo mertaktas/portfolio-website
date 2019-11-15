@@ -77,6 +77,7 @@
     width: 100vh;
     height: 100vh;
 
+    // Menu
     .menu-branding {
         width: 40%;
         height: 40vh;
@@ -101,6 +102,7 @@
 
     }
 
+    // main - home
     main#home {
         h1 {
             margin-top: 20vh;
@@ -124,6 +126,38 @@
 
     .projects {
         grid-template-columns: 1fr;
+    }
+
+    // main - about
+    main#about {
+        h1 {
+            margin-top: 2vh;
+            font-size: 2rem;
+        }
+
+        h2 {
+            font-size: 1rem;
+        }
+
+        .about-info {
+            img {
+                width: 70%;
+            }
+
+            .bio {
+                h3 {
+                    font-size: 1.5rem;
+                }
+
+                p {
+                    margin-top: 10px;
+                    font-size: 0.8rem;
+                    letter-spacing: 1.2px;
+                    line-height: 30px;
+                    margin-bottom: -15px;
+                }
+            }
+        }
     }
 
 }

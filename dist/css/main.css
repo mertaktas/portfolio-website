@@ -342,4 +342,11 @@ main {
     font-size: 0.8rem;
     letter-spacing: 1.2px;
     line-height: 30px;
-    margin-bottom: -15px; } }
+    margin-bottom: -15px; }
+  main#work h1 {
+    margin-top: 2vh;
+    font-size: 2rem; }
+  main#work h2 {
+    font-size: 1.2rem; }
+  main#work .projects .item {
+    font-size: 1.2rem; } }

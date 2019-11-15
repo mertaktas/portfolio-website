@@ -105,6 +105,7 @@ body {
   body#bg-img {
     background: url(../img/background.jpg);
     background-attachment: fixed;
+    background-repeat: no-repeat;
     background-size: cover; }
   body:after {
     content: "";
@@ -297,27 +298,33 @@ main {
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
-@media screen and (max-width: 500px) and (max-width: 500px) {
-  width: 100vh;
-  height: 100vh;
+@media screen and (max-width: 500px) {
+  body {
+    width: 100vh;
+    height: 100vh;
+    overflow: hidden; }
+  header {
+    width: 100vh;
+    height: 100vh;
+    overflow: hidden; }
   .menu-branding {
     width: 40%;
     height: 40vh;
     justify-content: center;
     align-items: center;
-    margin: 0 30%; }
+    margin: 0 auto;
+    height: 40vh;
+    transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
       width: 50%;
       height: 90%;
       margin: 0 auto; }
   .menu-nav {
-    width: 100%;
-    height: 60vh; }
-    .menu-nav .nav-link {
-      font-size: 1.7rem; }
+    height: 60vh;
+    transform: translate3d(-100%, 0, 0); }
   main#home h1 {
-    margin-top: 20vh;
-    font-size: 3rem; }
+    margin-top: 10vh;
+    font-size: 2.5rem; }
   main#home h2 {
     margin-top: 10vh;
     font-size: 1.3rem; }
@@ -325,7 +332,7 @@ main {
       font-size: 1.2rem; }
   main#home .icons {
     margin-top: 10vh;
-    font-size: 1.2rem; }
+    font-size: 1rem; }
   .projects {
     grid-template-columns: 1fr; }
   main#about h1 {

@@ -297,7 +297,7 @@ main {
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) and (max-width: 500px) {
   width: 100vh;
   height: 100vh;
   .menu-branding {

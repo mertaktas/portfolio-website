@@ -349,4 +349,11 @@ main {
   main#work h2 {
     font-size: 1.2rem; }
   main#work .projects .item {
-    font-size: 1.2rem; } }
+    font-size: 1.2rem; }
+  main#contact h1 {
+    margin-top: 2vh;
+    font-size: 2rem; }
+  main#contact h2 {
+    font-size: 1.2rem; }
+  main#contact .boxes div {
+    font-size: 1rem; } }

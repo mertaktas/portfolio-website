@@ -163,15 +163,14 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio';
-  grid-template-columns: repeat(3, 1fr); }
+  grid-template-areas: 'bioimage bio';
+  grid-template-columns: repeat(2, 1fr); }
   .about-info .bio-image {
-    width: 250px;
-    height: 250px;
+    width: auto;
+    height: 400px;
     grid-area: bioimage;
     margin: auto;
-    border-radius: 50%;
-    border: #eece1a 3px solid; }
+    border: #eece1a 1px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem;
